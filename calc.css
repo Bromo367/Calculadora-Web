@@ -1,0 +1,88 @@
+body {
+    background-color: #dff6f0;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#idDiv1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #404142;
+    border-radius: 20px;
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial;
+    width: 400px;
+    height: 600px;
+    position: relative;
+}
+#idVisor{
+    font-size: 72px;
+    color:black;
+    height: 88px;
+    padding: 8px;
+    box-sizing: border-box;
+    background: #89a7a7;
+    width: 390px;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 8px #000000;
+}
+#idDiv2{
+    width:360px;
+    position: relative;
+}
+#idDiv3{
+    width:360px;
+    position: relative;
+    display: flex;
+}
+#idDiv4{
+    width:350px;
+    position: relative;
+}
+#idDiv5{
+    width:80px;
+    position: relative;
+    margin-left: 20px;
+}
+.classNumero{
+    font-size: 24px;
+    height: 80px;
+    padding: 3px;
+    justify-content: right;
+    box-sizing: border-box;
+    background: #396c6c;
+    width: 360px;
+    border-radius: 6px;
+}
+.classOperacao{
+    font-size: 36px;
+    height: 42px;
+    padding: 3px;
+    justify-content: right;
+    box-sizing: border-box;
+    background: #396c6c;
+    border-radius: 6px;
+}
+.classBotao{
+    color: #cdd2d7;
+    background-color: #333333;
+    font-size: 78px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    width: 70px;
+    height: 90px;
+    margin: 5px;
+}
+#idZero{
+    width: 160px;
+}
